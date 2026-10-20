@@ -1,0 +1,27 @@
+{
+  "name": "Velvet-Pro",
+  "displayName": "Velvet Pro",
+  "description": "A refined, warm-dark theme featuring deep charcoal tones and subtle crimson accents, optimized for long, comfortable coding sessions.",
+  "version": "1.0.1",
+  "publisher": "Ariyan",
+  "icon": "Icon.png",
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/AriyanBinNahid/VelvetPro-VsCodeTheme"
+},
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Velvet Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/VelvetPro-Color-Theme.json"
+      }
+    ]
+  }
+}
